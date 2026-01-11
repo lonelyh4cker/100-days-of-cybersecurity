@@ -39,18 +39,22 @@ This day focuses on understanding **GitHub fundamentals**, repository workflows,
 3. Create a new branch  
    ```bash
    git checkout -b notes
+   ```
 4. Create a Day folder inside the notes branch
   ```bash
   mkdir Day-01
   cd Day-01
   touch README.md
+   ```
 5. Add your notes to the README.md file
 6. Commit your changes
   ```bash
   git add .
   git commit -m "Added Day 01 notes"
+   ```
 7. Push changes to your forked repository
   ```bash
   git push origin notes
+   ```
 
 
